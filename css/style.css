@@ -1,0 +1,80 @@
+body {
+  background-color: black;
+  position: relative;
+  border-style: solid;
+  margin: 0 auto;
+  perspective: 1000px;
+}
+#instructions {
+  color: white;
+  font-family: Helvetica;
+}
+.circleInner1 {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  background-color: black;
+  border-style: solid;
+  border-radius: 100%;
+  border-color: white;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: grow 2s ease 0s 1 forwards;
+  transform-style: preserve-3d;
+  transform: rotateX(10deg);
+}
+@keyframes grow {
+  100% {height: 120px; width: 120px; opacity: 0;}
+}
+.circleInner2 {
+  height: 75%;
+  width: 75%;
+  background-color: black;
+  border-style: solid;
+  border-radius: 100%;
+  border-color: white;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circleInner3 {
+  height: 65%;
+  width: 65%;
+  background-color: black;
+  border-style: solid;
+  border-radius: 100%;
+  border-color: white;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circleInner4 {
+  height: 55%;
+  width: 55%;
+  background-color: black;
+  border-style: solid;
+  border-radius: 100%;
+  border-color: white;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circleInner5 {
+  height: 25%;
+  width: 25%;
+  background-color: black;
+  border-style: solid;
+  border-radius: 100%;
+  border-color: white;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
